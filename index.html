@@ -7,7 +7,7 @@
   <style>
     :root{
       --card-w: 240px;   /* base size; auto-scales to fit viewport */
-      --card-h: 130px;
+      --card-h: 150px;
       --gap: 12px;
       --x-color: rgba(220, 20, 60, 0.35); /* transparent crimson */
       --x-thickness: 10px;
@@ -47,9 +47,9 @@
     .card:hover{ transform: translateY(-1px); border-color: var(--ring); box-shadow: 0 0 0 3px var(--ring); }
     .card:focus-visible{ outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(242,139,80,0.4); }
 
-    .title { font-weight: 700; font-size: 15px; margin: 0 0 6px 0; line-height: 1.15; }
-    .when { font-size: 13px; color: var(--muted); display: flex; gap: 10px; flex-wrap: wrap; }
-    .label { font-variant-numeric: tabular-nums; background: #0f1317; border: 1px solid #1e252e; padding: 2px 6px; border-radius: 6px; }
+    .title { font-weight: 700; font-size: 22px; margin: 0 0 8px 0; line-height: 1.2; }
+    .when { font-size: 19px; color: var(--muted); display: flex; gap: 10px; flex-wrap: wrap; }
+    .label { font-variant-numeric: tabular-nums; background: #0f1317; border: 1px solid #1e252e; padding: 3px 8px; border-radius: 6px; }
 
     /* The red X overlay */
     .card::before,
